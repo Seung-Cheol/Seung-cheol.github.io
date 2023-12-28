@@ -7,7 +7,7 @@ baseurl:             ''
 paginate:            5
 permalink:           pretty
 
-# About/contact
+# About/contact..
 author:
   name:              Mark Otto
   url:               https://twitter.com/mdo

@@ -1,7 +1,7 @@
 # Setup
 title:               'Seung-cheol World'
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+tagline:             'Development diary'
+description:         '김승철의 개발 블로그 입니다.<br>깃허브 주소 : <a href="https://github.com/Seung-cheol" target="_blank">들어가기</a><br>노션 주소 : <a href="https://enchanting-robe-3a2.notion.site/814a69edfcd943ad86e054abdd6917d1?pvs=4>들어가기</a>'
 url:                 https://Seung-cheol.github.io
 baseurl:             ''
 paginate:            5

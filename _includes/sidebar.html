@@ -17,20 +17,12 @@
     {% endcomment %}
 
     {% assign pages_list = site.pages | sort:"url" %}
-{% assign java_folder = "_java" %}
-
-{% for node in pages_list %}
-  {% if node.title != null %}
-    {% if node.layout == "page" %}
-      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-    {% else %}
-      {% assign is_subpage = node.dir | slice: 0, java_folder.size == java_folder %}
-      {% if is_subpage %}
-        <a class="sidebar-nav-subitem{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-      {% endif %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
+    {% for node in pages_list %}
+    {% if node.title != null %}
+      {% if node.layout == "page" %}
+        <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
+        {% endif %}
+    {% endfor %}
   </nav>
 
   <div class="sidebar-item">

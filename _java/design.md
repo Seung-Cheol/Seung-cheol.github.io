@@ -1,6 +1,6 @@
 ---
-layout: page
-title: 자바
+layout: design
+title: 디자인 패턴
 ---
 
 <p class="message">

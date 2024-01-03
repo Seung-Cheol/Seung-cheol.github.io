@@ -1,5 +1,5 @@
 ---
-layout: design
+layout: page
 title: 디자인 패턴
 ---
 
